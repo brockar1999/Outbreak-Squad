@@ -13,7 +13,7 @@ When we considered the theme of **Corona**, we decided upon an Osmosis-Jones-esq
 
 These are the struggles and surprises we encountered as we developed it:
 
-     ~ Enemy movement, Enemy interaction
+     ~ Enemy movement, Enemy interaction / Nick made some amazing sprites and Adam made some amazing soundtracks and songs for the game
 
 These are the technologies and resources we used:
      
@@ -44,5 +44,5 @@ Future plans:
   * Grayson Gootee
     * Contributions --> Game Debugger/tester, Helping-Hand Programmer, Game Design, README.md
   * Adam Wigington
-    * Contributions --> Art Design, Music, Game Design
+    * Contributions --> Art/Sound Design, Music, Game Design
 
