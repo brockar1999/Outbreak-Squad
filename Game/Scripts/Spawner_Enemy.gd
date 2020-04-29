@@ -1,7 +1,5 @@
 extends Node
 
-const enemy_amoeba = preload("res://scenes/Enemy_Amoeba.tscn")
-const enemy_bacterio = preload("res://scenes/Enemy_Bacterio.tscn")
 const enemies = [
 	preload("res://scenes/Enemy_Amoeba.tscn"),
 	preload("res://scenes/Enemy_Bacterio.tscn"),
