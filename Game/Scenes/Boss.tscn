@@ -1,7 +1,7 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Scenes/Spawner_Enemy.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Enemy_Boss.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scripts/Camera.gd" type="Script" id=3]
 [ext_resource path="res://Assets/Sprites/health.png" type="Texture" id=4]
 [ext_resource path="res://Assets/Sprites/backgroundnew.png" type="Texture" id=5]
@@ -10,8 +10,6 @@
 [ext_resource path="res://Assets/Sprites/button_normal.png" type="Texture" id=8]
 [ext_resource path="res://Assets/Sprites/button_pressed.png" type="Texture" id=9]
 [ext_resource path="res://Assets/Sprites/button_hover.png" type="Texture" id=10]
-[ext_resource path="res://Scenes/Spawner_Powerup.tscn" type="PackedScene" id=11]
-[ext_resource path="res://Scripts/Spawner_Powerup.gd" type="Script" id=12]
 
 [sub_resource type="GDScript" id=1]
 resource_name = "health"
@@ -42,8 +40,6 @@ func _ready():
 func set_score(new_value):
 	score = new_value
 	get_node(\"Label\").set_text(str(score))
-	if (score >= 50):
-		get_tree().change_scene(\"res://Scenes/Boss.tscn\")
 "
 
 [sub_resource type="DynamicFont" id=3]
@@ -85,11 +81,6 @@ script = ExtResource( 3 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 150, 690 )
-
-[node name="Spawner_PowerUp" parent="." instance=ExtResource( 11 )]
-script = ExtResource( 12 )
-
-[node name="Spawner_Enemy" parent="." instance=ExtResource( 2 )]
 
 [node name="HUD" type="CanvasLayer" parent="."]
 
@@ -145,6 +136,10 @@ align = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Enemy_Boss" parent="." instance=ExtResource( 2 )]
+position = Vector2( 152, 128 )
+health = 10
 [connection signal="health_changed" from="Player" to="HUD/Health" method="_on_Player_health_changed"]
 [connection signal="tree_exited" from="Player" to="HUD/Menu" method="_on_Player_tree_exited"]
 [connection signal="pressed" from="HUD/Menu" to="HUD/Menu" method="_on_Start_pressed"]
