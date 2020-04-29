@@ -31,7 +31,7 @@ This is the objective of the game:
      
 This is how the game is played:
 
-     ~ Fixed Shooter, controlled by mouse, complete waves (levels) of enemies, pick up powerful powerups (add life and add health) and avoid death.
+     ~ Fixed Shooter, controlled by mouse, fight against enemies, pick up powerful powerups (add life and add health) and avoid death.
      
 Future plans:
      
