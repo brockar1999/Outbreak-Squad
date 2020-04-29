@@ -32,7 +32,7 @@ func create_bullet(pos):
 
 func set_health(new_value):
 	health = new_value
-	emit_signal("health_changed", armor)
+	emit_signal("health_changed", health)
 	if health <= 0: 
 		get_node("/root/Game/Camera").shake(20, 0.13) 
 		queue_free()

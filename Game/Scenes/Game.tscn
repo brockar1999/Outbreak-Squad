@@ -7,6 +7,8 @@
 
 [node name="Game" type="Node2D"]
 
+[node name="BG" type="Sprite" parent="."]
+
 [node name="Camera" type="Camera2D" parent="."]
 anchor_mode = 0
 current = true
