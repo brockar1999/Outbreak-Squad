@@ -6,7 +6,7 @@
 [ext_resource path="res://Assets/Sprites/button_pressed.png" type="Texture" id=4]
 [ext_resource path="res://Assets/Sprites/button_hover.png" type="Texture" id=5]
 
-[sub_resource type="GDScript" id=2]
+[sub_resource type="GDScript" id=1]
 script/source = "extends TextureButton
 
 
@@ -19,7 +19,7 @@ func _on_Start_pressed():
 	get_tree().change_scene(\"res://Scenes/Game.tscn\")
 "
 
-[sub_resource type="DynamicFont" id=5]
+[sub_resource type="DynamicFont" id=2]
 font_data = ExtResource( 2 )
 
 [sub_resource type="GDScript" id=3]
@@ -49,7 +49,7 @@ margin_bottom = 316.0
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 texture_hover = ExtResource( 5 )
-script = SubResource( 2 )
+script = SubResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -57,7 +57,7 @@ __meta__ = {
 [node name="Label" type="Label" parent="HUD/Start"]
 margin_right = 45.0
 margin_bottom = 14.0
-custom_fonts/font = SubResource( 5 )
+custom_fonts/font = SubResource( 2 )
 text = "Start"
 align = 1
 __meta__ = {
@@ -80,7 +80,7 @@ __meta__ = {
 [node name="Label" type="Label" parent="HUD/Quit"]
 margin_right = 45.0
 margin_bottom = 14.0
-custom_fonts/font = SubResource( 5 )
+custom_fonts/font = SubResource( 2 )
 text = "Quit"
 align = 1
 __meta__ = {

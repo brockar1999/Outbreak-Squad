@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Assets/Music/mainsong.ogg" type="AudioStream" id=1]
 [ext_resource path="res://Scripts/Audio.gd" type="Script" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Assets/Sounds/shoot.tres" type="AudioStream" id=6]
 [ext_resource path="res://Assets/Sounds/powerup.tres" type="AudioStream" id=7]
 [ext_resource path="res://Assets/Sounds/enemyhurt.tres" type="AudioStream" id=8]
+[ext_resource path="res://Assets/Sounds/bossdeath.tres" type="AudioStream" id=9]
 
 [node name="Audio" type="Node"]
 script = ExtResource( 2 )
@@ -34,3 +35,8 @@ stream = ExtResource( 7 )
 
 [node name="Shoot" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 6 )
+
+[node name="BossDeath" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+
+[node name="BossHurt" type="AudioStreamPlayer" parent="."]
