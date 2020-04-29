@@ -19,10 +19,6 @@ config/name="Game"
 run/main_scene="res://Scenes/Game.tscn"
 config/icon="res://icon.png"
 
-[autoload]
-
-utils="*res://Scripts/utils.gd"
-
 [rendering]
 
 environment/default_environment="res://default_env.tres"
