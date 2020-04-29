@@ -32,7 +32,7 @@ This is how the game is played:
      
 Future plans:
      
-     ~ Adding a boss, more animations, perhaps more levels; all viable options for the summer
+     ~ Adding a official game over screen, making the enemy combatants harder and more life-like.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
