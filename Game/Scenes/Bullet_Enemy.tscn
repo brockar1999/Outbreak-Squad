@@ -7,7 +7,7 @@
 
 [node name="Bullet" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
-velocity = Vector2( 0, 200 )
+velocity = Vector2( 0, 300 )
 
 [node name="Shape" parent="." index="1"]
 position = Vector2( 0, -2 )

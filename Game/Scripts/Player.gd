@@ -23,7 +23,7 @@ func shoot():
 	while (true):
 		var pos = self.get_position()
 		create_bullet(pos)
-		yield(get_tree().create_timer(0.25), "timeout")
+		yield(get_tree().create_timer(.75), "timeout")
 
 func create_bullet(pos):
 	var bullet = bullet_scn.instance()
