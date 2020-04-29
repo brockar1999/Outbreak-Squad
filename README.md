@@ -13,27 +13,30 @@ When we considered the theme of **Corona**, we decided upon an Osmosis-Jones-esq
 
 These are the struggles and surprises we encountered as we developed it:
 
-     ~ Enemy movement, Enemy interaction, scale and design of the sprites was a small challenge / Nick made some amazing sprites and Adam made some amazing soundtracks and songs for the game
+     ~ Enemy movement, Enemy interaction, scale and design of the sprites was a small challenge 
+     ~ Nick made some amazing sprites and Adam made some amazing soundtracks and songs for the game
+     ~ Figuring out Github with a four-person group
 
 These are the technologies and resources we used:
      
      ~ Discord, Godot, Piskel, Adobe Illustator, Chiptone, and Beepbox
+     ~ A tutorial & UI resources by Angega Studios found at: https://www.youtube.com/playlist?list=PLv3l-oZCXaqkUEqrLsKJIAhAxK_Im6Qew
      
 This is the objective of the game:
      
-     ~ Fend off against the hoards of enemey bodies before stumbling across the boss
+     ~ Fend off against the hoards of enemey bodies
      
 This is how the game is played:
 
-     ~ Fixed Shooter, complete waves (levels) of enemies, avoid death and defeat the boss
+     ~ Fixed Shooter, controlled by mouse, complete waves (levels) of enemies, and avoid death
      
 Future plans:
      
-     ~
+     ~ Adding a boss, more animations, perhaps more levels; all viable options for the summer
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-###Team Members
+### Team Members
 
 ( All members provided and contributed to the end result in one way or another, everyone got along and decisions for the game went smoothly ) 
 
