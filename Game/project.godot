@@ -19,6 +19,11 @@ config/name="Game"
 run/main_scene="res://Scenes/Game.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=300
+window/size/height=740
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
