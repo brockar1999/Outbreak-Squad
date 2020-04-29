@@ -12,7 +12,7 @@ When we considered the theme of **Corona**, we decided upon an Osmosis-Jones-esq
 These are the struggles and surprises we encountered as we developed it:
 
 These are the technologies and resources we used:
-     - Godo, Piskel, 
+     - Godo, Piskel, Adobe Illustator, Chiptone, and Beepbox
 This is the objective of the game:
      - 
 This is how the game is played:
