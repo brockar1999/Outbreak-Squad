@@ -16,7 +16,10 @@ func _process(delta):
 		queue_free()
 
 func set_health(new_value):
+	if new_value < health:
+		Audio.play("EnemyHurt")
 	health = new_value
 	if health <= 0: 
+		Audio.play("EnemyDeath")
 		get_node("/root/Game/HUD/Score").score += points
 		queue_free()
