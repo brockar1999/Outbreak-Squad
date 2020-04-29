@@ -3,7 +3,7 @@ extends Node
 const enemies = [
 	preload("res://scenes/Enemy_Amoeba.tscn"),
 	preload("res://scenes/Enemy_Bacterio.tscn"),
-	preload("res://Scenes/Enemy_Bloodclotter.tscn"),
+	preload("res://scenes/Enemy_Bloodclotter.tscn"),
 	preload("res://scenes/Enemy_Germgunner.tscn")
 ]
 

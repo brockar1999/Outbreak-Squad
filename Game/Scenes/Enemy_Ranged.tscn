@@ -10,6 +10,7 @@ extents = Vector2( 32, 32 )
 [node name="Enemy_Ranged" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 velocity = Vector2( 200, 100 )
+points = 10
 
 [node name="Sprite" parent="." index="0"]
 texture = ExtResource( 3 )
