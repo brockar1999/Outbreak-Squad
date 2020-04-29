@@ -16,6 +16,7 @@ These are the struggles and surprises we encountered as we developed it:
      ~ Enemy movement, Enemy interaction, scale and design of the sprites was a small challenge 
      ~ Nick made some amazing sprites and Adam made some amazing soundtracks and songs for the game
      ~ Figuring out Github with a four-person group
+     ~ Tutorial used was in an outdated version of Godot, had to translate some functions to 3.0+
 
 These are the technologies and resources we used:
      
