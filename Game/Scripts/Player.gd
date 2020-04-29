@@ -1,13 +1,10 @@
 extends Area2D
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
+const bullet_scn = preload("res://scenes/Bullet_Player.tscn")
 
 func _ready(): #only called once
 	set_process(true)
+	shoot()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -18,3 +15,14 @@ func _process(delta):
 	var pos = get_position()
 	pos.x = clamp(pos.x,0+32, view_size.x-32)
 	set_position(pos)
+
+func shoot():
+	while (true):
+		var pos = self.get_position()
+		create_bullet(pos)
+		yield(get_tree().create_timer(0.25), "timeout")
+
+func create_bullet(pos):
+	var bullet = bullet_scn.instance()
+	bullet.set_position(pos)
+	get_parent().add_child(bullet)
