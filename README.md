@@ -13,7 +13,7 @@ When we considered the theme of **Corona**, we decided upon an Osmosis-Jones-esq
 
 These are the struggles and surprises we encountered as we developed it:
 
-     ~
+     ~ Enemy movement, Enemy interaction
 
 These are the technologies and resources we used:
      
@@ -21,11 +21,11 @@ These are the technologies and resources we used:
      
 This is the objective of the game:
      
-     ~
+     ~ Fend off against the hoards of enemey bodies before stumbling across the boss
      
 This is how the game is played:
 
-     ~
+     ~ Fixed Shooter, complete waves (levels) of enemies, avoid death and defeat the boss
      
 Future plans:
      
