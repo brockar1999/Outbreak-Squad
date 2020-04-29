@@ -1,9 +1,11 @@
 extends Area2D
 
 const bullet_scn = preload("res://scenes/Bullet_Player.tscn")
+var health = 4 setget set_health
 
 func _ready(): #only called once
 	set_process(true)
+	add_to_group("player")
 	shoot()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -26,3 +28,7 @@ func create_bullet(pos):
 	var bullet = bullet_scn.instance()
 	bullet.set_position(pos)
 	get_parent().add_child(bullet)
+
+func set_health(new_value):
+	health = new_value
+	if health <= 0: queue_free()
