@@ -38,7 +38,7 @@ Future plans:
 ( All members provided and contributed to the end result in one way or another, everyone got along and decisions for the game went smoothly ) 
 
   * Allie Brock
-    * Contributions --> Lead Programmer, Game Debugger/Tester, Game Design
+    * Contributions --> Lead Programmer, Game Debugger/Tester, Game Design, README.md
   * Nick Manes
     * Contributions --> Art Design, Game Design
   * Grayson Gootee
