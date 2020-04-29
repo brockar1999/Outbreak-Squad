@@ -16,15 +16,17 @@ These are the struggles and surprises we encountered as we developed it:
      ~ Enemy movement, Enemy interaction, scale and design of the sprites was a small challenge 
      ~ Nick made some amazing sprites and Adam made some amazing soundtracks and songs for the game
      ~ Figuring out Github with a four-person group
+     ~ Tutorial used was in an outdated version of Godot, had to translate some functions to 3.0+
 
 These are the technologies and resources we used:
      
      ~ Discord, Godot, Piskel, Adobe Illustator, Chiptone, and Beepbox
      ~ A tutorial & UI resources by Angega Studios found at: https://www.youtube.com/playlist?list=PLv3l-oZCXaqkUEqrLsKJIAhAxK_Im6Qew
+     ~ Godot animated sprite tutorial: https://docs.godotengine.org/en/3.1/tutorials/2d/2d_sprite_animation.html
      
 This is the objective of the game:
      
-     ~ Fend off against the hoards of enemey bodies.
+     ~ Fend off against the hoards of enemy bodies and defeat the boss.
      
 This is how the game is played:
 
@@ -32,7 +34,7 @@ This is how the game is played:
      
 Future plans:
      
-     ~ Adding a official game over screen, making the enemy combatants harder and more life-like.
+     ~ Adding a official game over screen, making the enemy combatants harder and more life-like, and utilizing more animations.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
