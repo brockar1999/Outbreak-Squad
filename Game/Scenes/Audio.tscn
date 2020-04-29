@@ -1,0 +1,36 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Assets/Music/mainsong.ogg" type="AudioStream" id=1]
+[ext_resource path="res://Scripts/Audio.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Sounds/enemydeath.tres" type="AudioStream" id=3]
+[ext_resource path="res://Assets/Sounds/playerdeath.tres" type="AudioStream" id=4]
+[ext_resource path="res://Assets/Sounds/playerhurt.tres" type="AudioStream" id=5]
+[ext_resource path="res://Assets/Sounds/shoot.tres" type="AudioStream" id=6]
+[ext_resource path="res://Assets/Sounds/powerup.tres" type="AudioStream" id=7]
+[ext_resource path="res://Assets/Sounds/enemyhurt.tres" type="AudioStream" id=8]
+
+[node name="Audio" type="Node"]
+script = ExtResource( 2 )
+
+[node name="MainSong" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 1 )
+autoplay = true
+
+[node name="PlayerHurt" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+
+[node name="PlayerDeath" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+
+[node name="EnemyHurt" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+
+[node name="EnemyDeath" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[node name="PowerUp" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+
+[node name="Shoot" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )

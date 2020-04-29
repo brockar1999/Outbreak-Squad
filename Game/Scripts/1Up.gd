@@ -13,5 +13,6 @@ func _ready():
 
 func _on_1Up_area_entered(area):
 	if area.is_in_group("player"):
+		Audio.play("PowerUp")
 		area.lives += 1
 		queue_free()

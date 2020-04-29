@@ -22,6 +22,7 @@ func _process(delta):
 
 func shoot():
 	while (true):
+		Audio.play("Shoot")
 		var pos = self.get_position()
 		create_bullet(pos)
 		yield(get_tree().create_timer(.75), "timeout")
@@ -33,6 +34,9 @@ func create_bullet(pos):
 
 func set_health(new_value):
 	if new_value > 4: return
+	if new_value < health:
+		Audio.play("PlayerHurt")
+	
 	health = new_value
 	emit_signal("health_changed", health)
 	if health <= 0: 
@@ -43,5 +47,6 @@ func set_lives(new_value):
 	lives = new_value
 	get_node("/root/Game/Camera").shake(30, 0.13) 
 	if lives <= 0:
+		Audio.play("PlayerDeath")
 		queue_free()
 	health = 4

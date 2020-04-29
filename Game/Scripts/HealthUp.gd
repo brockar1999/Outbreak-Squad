@@ -10,5 +10,6 @@ func _ready():
 
 func _on_HealthUp_area_entered(area):
 	if area.is_in_group("player"):
+		Audio.play("PowerUp")
 		area.health += 1
 		queue_free()
