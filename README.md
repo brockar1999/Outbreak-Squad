@@ -34,12 +34,13 @@ Future plans:
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ###Team Members
-
+( All members provided and contributed to the end result in one way or another, everyone got along and decisions for the game went smoothly) 
   * Allie Brock
-    * Contributions
+    * Contributions --> Programmer, Game Debugger/Tester, Game Design
   * Nick Manes
-    * Contributions
+    * Contributions --> Art Design, Game Design
   * Grayson Gootee
-    * Contributions
+    * Contributions --> Game Debugger/tester, Game Design, README.md
   * Adam Wigington
+    * Contributions --> Art Design, Music, Game Design
 
