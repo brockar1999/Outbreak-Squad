@@ -24,11 +24,11 @@ These are the technologies and resources we used:
      
 This is the objective of the game:
      
-     ~ Fend off against the hoards of enemey bodies
+     ~ Fend off against the hoards of enemey bodies.
      
 This is how the game is played:
 
-     ~ Fixed Shooter, controlled by mouse, complete waves (levels) of enemies, and avoid death
+     ~ Fixed Shooter, controlled by mouse, complete waves (levels) of enemies, pick up powerful powerups (add life and add health) and avoid death.
      
 Future plans:
      
