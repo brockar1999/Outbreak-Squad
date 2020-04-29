@@ -5,7 +5,6 @@ var health = 4 setget set_health
 
 func _ready(): #only called once
 	set_process(true)
-	add_to_group("player")
 	shoot()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
