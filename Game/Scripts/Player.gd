@@ -2,6 +2,7 @@ extends Area2D
 
 const bullet_scn = preload("res://scenes/Bullet_Player.tscn")
 var health = 4 setget set_health
+var lives = 1 setget set_lives
 
 signal health_changed
 
@@ -31,8 +32,16 @@ func create_bullet(pos):
 	get_parent().add_child(bullet)
 
 func set_health(new_value):
+	if new_value > 4: return
 	health = new_value
 	emit_signal("health_changed", health)
 	if health <= 0: 
 		get_node("/root/Game/Camera").shake(20, 0.13) 
+		set_lives(lives - 1)
+
+func set_lives(new_value):
+	lives = new_value
+	get_node("/root/Game/Camera").shake(30, 0.13) 
+	if lives <= 0:
 		queue_free()
+	health = 4

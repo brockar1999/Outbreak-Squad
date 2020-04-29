@@ -2,6 +2,7 @@ extends Area2D
 
 export var velocity = Vector2()
 export var health = 2 setget set_health
+export var points = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -16,4 +17,6 @@ func _process(delta):
 
 func set_health(new_value):
 	health = new_value
-	if health <= 0: queue_free()
+	if health <= 0: 
+		get_node("/root/Game/HUD/Score").score += points
+		queue_free()
