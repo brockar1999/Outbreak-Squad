@@ -1,11 +1,32 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Spawner_Enemy.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scripts/Camera.gd" type="Script" id=3]
 [ext_resource path="res://Assets/Sprites/health.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Sprites/backgroundnew.png" type="Texture" id=5]
+
+[sub_resource type="GDScript" id=1]
+resource_name = "health"
+script/source = "extends Sprite
+
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+
+func _on_Player_health_changed(health):
+	frame = health
+"
 
 [node name="Game" type="Node2D"]
+
+[node name="BG" type="Sprite" parent="."]
+position = Vector2( 150, 370 )
+texture = ExtResource( 5 )
 
 [node name="Camera" type="Camera2D" parent="."]
 anchor_mode = 0
@@ -13,6 +34,7 @@ current = true
 script = ExtResource( 3 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 150, 690 )
 
 [node name="Spawner_Enemy" parent="." instance=ExtResource( 2 )]
 
@@ -23,3 +45,5 @@ position = Vector2( 50, 50 )
 texture = ExtResource( 4 )
 hframes = 5
 frame = 4
+script = SubResource( 1 )
+[connection signal="health_changed" from="Player" to="HUD/Health" method="_on_Player_health_changed"]

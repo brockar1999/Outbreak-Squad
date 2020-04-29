@@ -8,7 +8,7 @@ func _ready():
 	var direction = randi()%2+1
 	if direction == 1:
 		velocity.x *= -1
-	yield(get_tree().create_timer(1), "timeout")
+	yield(get_tree().create_timer(.75), "timeout")
 	shoot()
 
 func _process(delta):

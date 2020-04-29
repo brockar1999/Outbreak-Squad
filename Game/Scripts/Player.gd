@@ -23,7 +23,7 @@ func shoot():
 	while (true):
 		var pos = self.get_position()
 		create_bullet(pos)
-		yield(get_tree().create_timer(0.25), "timeout")
+		yield(get_tree().create_timer(.75), "timeout")
 
 func create_bullet(pos):
 	var bullet = bullet_scn.instance()
@@ -32,7 +32,7 @@ func create_bullet(pos):
 
 func set_health(new_value):
 	health = new_value
-	emit_signal("health_changed", armor)
+	emit_signal("health_changed", health)
 	if health <= 0: 
 		get_node("/root/Game/Camera").shake(20, 0.13) 
 		queue_free()
