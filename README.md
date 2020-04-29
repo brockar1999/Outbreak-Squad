@@ -1,5 +1,5 @@
-# Name Pending
-## by The Outbreak Squad
+# Outbreak Offensive
+## By: The Outbreak Squad (Allie Brock, Nick Manes, Grayson Gootee, Adam Wigington)
 ### For BL-MSCH-C220 at Indiana University, Bloomington
 ### April 29, 2020
 
