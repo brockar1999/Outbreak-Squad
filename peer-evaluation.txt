@@ -1,0 +1,46 @@
+Name:Griffen Morrison
+Date:4/29/2020
+
+Project: Outbreak Offensive
+Group's repository: https://github.com/brockar1999/Outbreak-Squad
+
+
+
+What is something you learned by reviewing this group's project?
+Stuff and things.
+
+In what ways does this game reflect the theme?
+You play as a white blood cell. Which during the time of writing there is a pandemic going on. Topical.
+ 
+
+What is something you saw in this group's project that you would like to apply to your own future games?
+Personally created art. Most of my games I struggle in the art department.
+ 
+
+What suggestions would you have for this group to improve the game?
+Due to the time constraint on the project they were not able to get player damage in. You can beat the game without playing.
+ 
+
+Was there anything in the GDScript that was confusing to you? If so, what?
+Nope.
+ 
+
+Is it clear that every group member participated?
+Yes.
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes
+ 
+
+What is something the group could add to the README.md to make it more descriptive?
+The screenshot on the readme instead of in the files. Use the MD syntax ![name](filepath)
+ 
+
+Pay a compliment to the group based on the quality of the game.
+The art really impressed me. It looks like every sprite was custom.
+
+
+How many of your points would you allocate to this project?
+2.5 out of my total points of 5.
+
