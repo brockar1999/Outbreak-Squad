@@ -1,0 +1,55 @@
+Name:
+Date:
+
+Project: 
+Group's repository: 
+
+
+
+What is something you learned by reviewing this group's project?
+I learned more about the impact of adding some screen shake and the importnace of the juiceness of the game. I believe that the they added some good features 
+that gave the game some good impact.
+
+In what ways does this game reflect the theme?
+This game definitely went into the direction of teh Corona Virus. It is a osmosis Jones styled game where you have to shoot the virus as it comes in.
+
+ 
+
+What is something you saw in this group's project that you would like to apply to your own future games?
+I think that I would like to add more juice to my games, because this had a lot of it, and it made it a pretty enjoyable experience all around and I think that
+the oomph that came from the screen shake really added to that.
+ 
+
+What suggestions would you have for this group to improve the game?
+I think they should incorporate some way of allowing the player to choose when he shoots. It felt almost too easy when you were just constantly shooting.
+ At least up until the boss fight which was a great touch on the game.
+
+Was there anything in the GDScript that was confusing to you? If so, what?
+I think one thing that they did a good job of in GDScript that I am not good with is using ways to make different instanced scenes interact with one another.
+The use of scenes in Scripts still trips me up continually, and They have a lot of different scenes.
+ 
+
+Is it clear that every group member participated?
+Yes, It seems clear that every member of their group probably played some role in making this game.
+
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes, it contains the appropriate LISCENSE.
+ 
+
+What is something the group could add to the README.md to make it more descriptive?
+I think they had a solid README.md and it had a nice format too with the sliding bars. If anything, I think adding some pictures might have helped, but they
+do tell you where you can find the thumbnail.
+ 
+
+Pay a compliment to the group based on the quality of the game.
+I think they did an excellent job in multiple areas. I think the sound, art, and gameplay really tied well into each other. The art itself was fantastic 
+for such a small amount of dev time. I think the biggest compliment goes to the oomph that the game really has because of the juiceness that was 
+employed. Also, the structure of using scenes like this seems to be the way Godot was meant to be used, so the internal design of the game was 
+also very good.
+
+How many of your points would you allocate to this project?
+I would give them 3 out of my 5 points to allocate.
+
+
