@@ -1,0 +1,47 @@
+Name:Jackson Summers
+Date:may 2 2020
+
+Project: Outbreak Squad
+Group's repository: Outbreak-Squad 
+
+
+
+What is something you learned by reviewing this group's project?
+I learned that movement sensitivity can make a huge difference in space shooter-esque games.
+ 
+
+In what ways does this game reflect the theme?
+It portrays a body fighting a viral infection.
+ 
+
+What is something you saw in this group's project that you would like to apply to your own future games?
+Powers. I never took the chance to explore those.
+ 
+
+What suggestions would you have for this group to improve the game?
+I would like to see more animations like explosions.
+ 
+
+Was there anything in the GDScript that was confusing to you? If so, what?
+No
+ 
+
+Is it clear that every group member participated?
+Yes 
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes
+ 
+
+What is something the group could add to the README.md to make it more descriptive?
+I would have liked to hear more about the creative process.
+ 
+
+Pay a compliment to the group based on the quality of the game.
+I really like the addition of a boss battle.
+
+
+How many of your points would you allocate to this project?
+5
+
