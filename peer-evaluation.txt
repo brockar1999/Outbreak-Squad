@@ -1,0 +1,44 @@
+Name: Jocelyn Beedie
+Date: May 2nd, 2020
+
+Project: Outbreak Squad
+Group's repository: https://github.com/Jellonator/Outbreak-Squad
+
+What is something you learned by reviewing this group's project?
+I really like this bit of code from Enemy_Boss.gd:
+    func _ready():
+        shoot()
+    func shoot():
+        while true:
+            var bullet = bullet_scn.instance()
+            bullet.set_position(get_position())
+            get_parent().add_child(bullet)
+            yield(get_tree().create_timer(.5), "timeout")
+I never thought to create a continuous loop that runs on a timer like this
+
+In what ways does this game reflect the theme?
+You play as a white blood cell fending off invaders, such as the corona virus.
+
+What is something you saw in this group's project that you would like to apply to your own future games?
+I 
+
+What suggestions would you have for this group to improve the game?
+A lot of the 'preload' calls had the capitalization wrong, which meant that the game didn't run properly on Linux.
+
+Was there anything in the GDScript that was confusing to you? If so, what?
+Honestly, all of the code was well written and easy to understand.
+
+Is it clear that every group member participated?
+Yes
+
+Does the repository contain an appropriate LICENSE?
+Yes
+
+What is something the group could add to the README.md to make it more descriptive?
+The README was well written and organized, but I think a bulleted list would have been better than using ```.
+
+Pay a compliment to the group based on the quality of the game.
+The music was sick and the art looked really good.
+
+How many of your points would you allocate to this project?
+4

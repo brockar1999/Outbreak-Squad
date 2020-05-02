@@ -3,7 +3,7 @@ extends Area2D
 export var velocity = Vector2()
 export var health = 10 setget set_health
 export var points = 0
-const bullet_scn = preload("res://scenes/Bullet_Enemy.tscn")
+const bullet_scn = preload("res://Scenes/Bullet_Enemy.tscn")
 signal halfhealth
 
 # Called when the node enters the scene tree for the first time.

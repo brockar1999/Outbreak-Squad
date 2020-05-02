@@ -1,6 +1,6 @@
 extends Area2D
 
-const bullet_scn = preload("res://scenes/Bullet_Player.tscn")
+const bullet_scn = preload("res://Scenes/Bullet_Player.tscn")
 var health = 4 setget set_health
 var lives = 1 setget set_lives
 

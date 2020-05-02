@@ -1,6 +1,6 @@
 extends "res://Scripts/Enemy.gd"
 
-const bullet_scn = preload("res://scenes/Bullet_Enemy.tscn")
+const bullet_scn = preload("res://Scenes/Bullet_Enemy.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

@@ -1,10 +1,10 @@
 extends Node
 
 const enemies = [
-	preload("res://scenes/Enemy_Amoeba.tscn"),
-	preload("res://scenes/Enemy_Bacterio.tscn"),
-	preload("res://scenes/Enemy_Bloodclotter.tscn"),
-	preload("res://scenes/Enemy_Germgunner.tscn")
+	preload("res://Scenes/Enemy_Amoeba.tscn"),
+	preload("res://Scenes/Enemy_Bacterio.tscn"),
+	preload("res://Scenes/Enemy_Bloodclotter.tscn"),
+	preload("res://Scenes/Enemy_Germgunner.tscn")
 ]
 
 # Called when the node enters the scene tree for the first time.

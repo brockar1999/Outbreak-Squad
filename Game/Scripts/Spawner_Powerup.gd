@@ -1,8 +1,8 @@
 extends Node
 
 const powerups = [
-	preload("res://scenes/HealthUp.tscn"),
-	preload("res://scenes/1Up.tscn"),
+	preload("res://Scenes/HealthUp.tscn"),
+	preload("res://Scenes/1Up.tscn"),
 ]
 
 # Called when the node enters the scene tree for the first time.
