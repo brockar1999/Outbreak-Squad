@@ -1,0 +1,46 @@
+Name: Benjamin Cantrell
+Date: 5/2/2020
+
+Project: Outbreak Offensive
+Group's repository:https://github.com/brockar1999/Outbreak-Squad
+
+
+
+What is something you learned by reviewing this group's project?
+That you could make the game a different resolution (well i probably kind of assumed that it was possible but never really knew)
+ 
+
+In what ways does this game reflect the theme?
+Coronavirus is a virus, so they made a game where you play as a white blood cell and defeat the bacteria and viruses
+ 
+
+What is something you saw in this group's project that you would like to apply to your own future games?
+They did include a boss at the end of their game, which i have not done in my games yet.
+ 
+
+What suggestions would you have for this group to improve the game?
+Their Future plans cover all of it; its a great game and could become a better game with more leevls added
+ 
+
+Was there anything in the GDScript that was confusing to you? If so, what?
+Not really
+
+Is it clear that every group member participated?
+After Looking at the readme, yes.
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes
+ 
+
+What is something the group could add to the README.md to make it more descriptive?
+Tell the player not to go fullscreen with it; I did at first and was confused and thought it was a bug, but then realised the game is suppposed tobe played in windowed mode
+ 
+
+Pay a compliment to the group based on the quality of the game.
+Really good game; my group didnt even manage to fully finish its first level
+
+
+How many of your points would you allocate to this project?
+3
+
