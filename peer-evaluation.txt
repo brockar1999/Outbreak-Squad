@@ -20,7 +20,7 @@ In what ways does this game reflect the theme?
 You play as a white blood cell fending off invaders, such as the corona virus.
 
 What is something you saw in this group's project that you would like to apply to your own future games?
-I 
+I really like how the bullets use a visibility notifier to know when to destroy themselves, and I think that would be a useful way to handle projectiles in future projects.
 
 What suggestions would you have for this group to improve the game?
 A lot of the 'preload' calls had the capitalization wrong, which meant that the game didn't run properly on Linux.
