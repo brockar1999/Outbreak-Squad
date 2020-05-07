@@ -1,0 +1,47 @@
+Name: Casey Luthman
+Date: 05/02/2020
+
+Project: 
+Group's repository: 
+
+   https://github.com/brockar1999/Outbreak-Squad
+
+What is something you learned by reviewing this group's project?
+
+   I learned how display boss characters in a shooters. They showed to to effectively change the enemy scene.
+
+In what ways does this game reflect the theme?
+
+   This game reflected the theme by showing how a white blood cell fights viral contagions inside the body.
+
+What is something you saw in this group's project that you would like to apply to your own future games?
+
+   I would like to apply the boss system to my future games. Once the 50 point mark is reached, the boss scene is implemented very smoothly.
+
+What suggestions would you have for this group to improve the game?
+
+   In order to improve this game I would suggest that collisions with the virus bodies decreases healh. The only way to die is to be hit by bullets and it makes the game too easy. Also the boss only shoots in a straight line so they are very easy to kill.
+
+Was there anything in the GDScript that was confusing to you? If so, what?
+
+   There was nothing confusing to me.
+
+Is it clear that every group member participated?
+
+   Yes. While it's difficult to know for sure just from the repository, the team itself claimed that they had no one-sided participation issues.
+
+Does the repository contain an appropriate LICENSE?
+
+   Yes, it does.
+
+What is something the group could add to the README.md to make it more descriptive?
+
+   They tell the player that when you hit 50 points you spawn the boss instead of having them jjust shoot blindly.
+
+Pay a compliment to the group based on the quality of the game.
+
+   The game feels really complete and I can tell that the amount of work put into the scripting makes the enemy movements more unpredictable and entertaining.
+
+How many of your points would you allocate to this project?
+
+   I would allocate 3 of my 5 points.
